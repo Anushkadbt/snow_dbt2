@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowlake_stage
+    database: PC_DBT_DB
+    schema: RAW
+    tables:
+      - name: ACCOUNT
+      - name: ORDER
+      - name: USER

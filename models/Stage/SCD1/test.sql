@@ -1,0 +1,1 @@
+select * from {{ source('snowlake_stage', 'ACCOUNT') }}
